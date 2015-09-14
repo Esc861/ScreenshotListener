@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ScreenshotListener.iml" filepath="$PROJECT_DIR$/ScreenshotListener.iml" />
-      <module fileurl="file://$PROJECT_DIR$/listener/screenshotlistener.iml" filepath="$PROJECT_DIR$/listener/screenshotlistener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listener/screenshot-listener.iml" filepath="$PROJECT_DIR$/listener/screenshot-listener.iml" />
     </modules>
   </component>
 </project>

@@ -1,5 +1,30 @@
 apply plugin: 'com.android.library'
 
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'screenshotlistener'
+
+    publishedGroupId = 'com.esc861.screenshotlistener'
+    libraryName = 'ScreenshotListener'
+    artifact = 'screenshotlistener'
+
+    libraryDescription = 'An Android library to detect when a user has taken a screenshot of your app.'
+
+    siteUrl = 'https://github.com/Esc861/ScreenshotListener'
+    gitUrl = 'https://github.com/Esc861/ScreenshotListener.git'
+
+    libraryVersion = '1.0.3'
+
+    developerId = 'esc861'
+    developerName = 'Eric Clayton'
+    developerEmail = 'esc861@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
@@ -22,3 +47,6 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:23.0.1'
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
